@@ -6,7 +6,7 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 
 
-def main():
+def main() -> None:
     # pygame 모듈 초기화
     pygame.init()
 
