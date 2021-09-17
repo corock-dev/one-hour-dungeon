@@ -8,11 +8,11 @@ NAVY = (0, 0, 128)
 
 def main() -> None:
     pygame.init()
-    pygame.display.set_caption("첫 번째 Pygame: 화면 회전, 확대/축소")
+    pygame.display.set_caption('첫 번째 Pygame: 화면 회전, 확대/축소')
     screen = pygame.display.set_mode((600, 400))
     clock = pygame.time.Clock()
     font = pygame.font.Font(None, 40)
-    img = pygame.image.load("pg_slime.png")
+    img = pygame.image.load('pg_slime.png')
     tmr = 0
 
     while True:
